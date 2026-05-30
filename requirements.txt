@@ -1,0 +1,51 @@
+# Dependencias para las prácticas de NLP 2026
+# Instalación automática vía setup.sh (uv)
+
+# Jupyter
+jupyterlab>=4.0
+ipykernel>=6.29
+ipywidgets>=8.1
+
+# NLP clásico
+nltk>=3.8
+spacy>=3.7
+gensim>=4.3
+
+# Machine Learning
+scikit-learn>=1.4
+imbalanced-learn>=0.11
+
+# Deep Learning
+torch>=2.1
+torchvision>=0.16
+
+# Data
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+
+# Visualización
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.18
+
+# Utilidades
+tqdm>=4.66
+requests>=2.31
+python-dotenv>=1.0
+
+# PDF / Archivos
+pypdf>=3.17
+
+# Transformers / Hugging Face
+transformers>=4.38
+datasets>=2.17
+tokenizers>=0.15
+evaluate>=0.4
+accelerate>=0.27
+sentence-transformers>=2.5
+huggingface-hub>=0.21
+
+# Extras
+wordcloud>=1.9
+contractions>=0.1
